@@ -1,7 +1,7 @@
 pipeline{
 	agent any
 	environment{
-		PATH = "/opt/tomcat8/bin:$PATH"
+		PATH = "/opt/maven-3/bin:$PATH"
 	}
 	stages{
 		stage("Git Checkout"){
